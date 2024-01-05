@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Your actual OpenAI API key
-const openaiApiKey = "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";
+const openaiApiKey = "";
 
 // Function to generate text using OpenAI API
 async function generateText(prompt) {
